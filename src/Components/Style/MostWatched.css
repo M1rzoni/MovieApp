@@ -1,0 +1,41 @@
+
+.most-watched-main-container{
+    display: flex;
+    gap: 0.7rem;
+    overflow-x: auto;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.most-watched-main-container::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: gray;
+    
+}
+
+.flex-most{
+    display: flex;
+    gap: 5px;
+    margin-top: 1%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal{
+      background: #000;
+      border-radius: 10px;
+  }

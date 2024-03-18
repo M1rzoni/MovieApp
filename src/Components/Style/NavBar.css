@@ -1,0 +1,33 @@
+.navbar-main-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+  }
+  
+  .items-in-navbar-container {
+    display: flex;
+    list-style-type: none;
+    font-size: 19px;
+  }
+  
+  .items-in-navbar-container li {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px; 
+    color: white;
+  }
+  
+  input {
+    margin-left: auto; 
+    padding: 7px;
+    border-radius: 15px;
+}
+
+input::placeholder{
+    color: black;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+  
